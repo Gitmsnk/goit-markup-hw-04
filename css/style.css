@@ -16,6 +16,9 @@ body {
 
 .page-header {
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .nav-container{
@@ -43,6 +46,7 @@ body {
     text-transform: uppercase;
     color: #4d5ae5;
     margin-right: 76px;
+    position: relative;
 }
 
 .nav-logo .logo-span {
@@ -95,9 +99,11 @@ body {
 .first-section {
     background-color: #2e2f42;
     padding: 188px 0;
-    background-image: url("../images/backgorund_image.jpg");
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/backgorund_image.jpg");
     background-size: cover;
-    
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .first-section-div {
     display: flex;
