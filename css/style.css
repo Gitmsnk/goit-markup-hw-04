@@ -156,17 +156,18 @@ body {
     margin-right: 0;
 }
 .second-section-svg{
-    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #8e8f99;
     border-radius: 4px;
     background-color: #F4F4FD;
     padding:24px 100px;
     width: 264px;
     height: 112px;
+    margin-bottom: 8px;
 }
-.second-section-svg  svg{
-    width: 64px;
-    height: 64px;
-}
+
 .second-section-head {
     font-weight: 500;
     font-size: 20px;
