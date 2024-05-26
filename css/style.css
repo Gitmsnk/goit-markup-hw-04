@@ -356,7 +356,12 @@ footer {
     background-color: #2e2f42;
     padding: 100px 0;
 }
-
+.footer{
+    display: flex;
+    align-items: baseline;
+    margin-right: 120px;
+    
+}
 .footer-p{
     color: #f4f4fd
 }
