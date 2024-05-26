@@ -360,7 +360,10 @@ footer {
     display: flex;
     align-items: baseline;
     margin-right: 120px;
-    
+
+}
+.footer-logo-p{
+    margin-right: 120px;
 }
 .footer-p{
     color: #f4f4fd
