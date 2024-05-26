@@ -60,7 +60,7 @@ body {
     display: flex;
     gap: 40px;
 }
-.link-first-studio{
+.header-nav .link-first-studio{
     color: #404bbf;
 }
 .nav-list-list-item .link {
@@ -71,7 +71,7 @@ body {
     color: #2e2f42;
     padding: 24px 0;
 }
-.nav-list-list-item.link::after{
+.nav-list-list-item .link::after{
         content: "";
         width: 100%;
         position: absolute;
