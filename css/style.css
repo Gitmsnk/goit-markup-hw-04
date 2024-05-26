@@ -118,7 +118,7 @@ body {
 .contact .link:focus {
     color: #404bbf;
 }
-.first-section div {
+.first-section {
     background-color: #2e2f42;
     padding: 188px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/backgorund_image.jpg");
@@ -126,8 +126,9 @@ body {
     max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
+    margin: 0 auto;
 }
-.first-section div {
+.first-section {
     display: flex;
     flex-direction: column;
     align-items: center;
