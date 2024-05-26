@@ -312,6 +312,7 @@ body {
 .fourth-list-item-images-container{
     position: relative;
     overflow: hidden;
+    transform: translateY(0%);
 }
 .fourth-list-item-images-p{
     position: absolute;
