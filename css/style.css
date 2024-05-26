@@ -398,8 +398,8 @@ footer>p {
 .footer-media{
     gap:16px;
 }
-.footer-media:hover,
-.footer-media:focus{
+.footer-media a:hover,
+.footer-media a:focus{
     background-color: #31d0aa;
 }
 header li{
