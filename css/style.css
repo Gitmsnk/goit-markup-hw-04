@@ -379,7 +379,7 @@ footer>a{
     letter-spacing: 0.02em;
     color:#FFFFFF;
     margin-bottom:16px;
-    
+
 }
 footer>p {
     font-size: 16px;
@@ -394,6 +394,13 @@ footer>p {
 }
 .footer-span{
     color:#f4f4fd;
+}
+.footer-media{
+    gap:16px;
+}
+.footer-media:hover,
+.footer-media:focus{
+    background-color: #31d0aa;
 }
 header li{
     list-style-type: none;
