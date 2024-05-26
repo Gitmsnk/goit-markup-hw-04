@@ -155,6 +155,15 @@ body {
 .second-section li:last-child{
     margin-right: 0;
 }
+.second-section-svg{
+    border: 1px solid;
+    border-radius: 4px;
+    background-color: #F4F4FD;
+    padding:24px 100px;
+    width: 264px;
+    height: 112px;
+
+}
 .second-section-head {
     font-weight: 500;
     font-size: 20px;
